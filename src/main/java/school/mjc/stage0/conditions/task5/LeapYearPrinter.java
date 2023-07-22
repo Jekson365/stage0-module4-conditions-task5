@@ -4,10 +4,10 @@ public class LeapYearPrinter {
     public void isLeapYear(int year) {
         switch (year % 4) {
             case 0:
-                System.out.println("leap");
+                System.out.println("not leap");
                 break;
             default:
-                System.out.println("not leap");
+                System.out.println("leap");
                 break;
         }
     }
